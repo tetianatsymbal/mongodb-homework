@@ -1,5 +1,4 @@
 import { connect, close } from "./connection.js";
-// const students = require("./students.json");
 
 const db = await connect();
 const usersCollection = db.collection("users");
